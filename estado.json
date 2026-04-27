@@ -1,0 +1,30 @@
+{
+  "latitud": 6.2408979,
+  "longitud": -75.5904892,
+  "radio": 1000.0,
+  "estado": "inicial",
+  "restaurantes": [],
+  "preguntas": [
+    {
+      "pregunta": "¿Qué tipo de comida prefieres?",
+      "opciones": [
+        "Italiana",
+        "China",
+        "Mexicana",
+        "Vegetariana"
+      ],
+      "respuestas": [
+        "Italiana",
+        "China",
+        "China",
+        "Mexicana",
+        "China",
+        "Italiana",
+        "China",
+        "Mexicana",
+        "Mexicana",
+        "Mexicana"
+      ]
+    }
+  ]
+}
