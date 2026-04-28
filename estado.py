@@ -9,7 +9,7 @@ class restaurante(BaseModel):
     nombre: str
     latitud: float
     longitud: float
-    categoria: str
+    categoria: List[str]
     calificacion: float
 
 class pregunta(BaseModel):

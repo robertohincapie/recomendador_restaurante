@@ -3,28 +3,1150 @@
   "longitud": -75.5904892,
   "radio": 1000.0,
   "estado": "inicial",
-  "restaurantes": [],
-  "preguntas": [
+  "restaurantes": [
     {
-      "pregunta": "¿Qué tipo de comida prefieres?",
-      "opciones": [
-        "Italiana",
-        "China",
-        "Mexicana",
-        "Vegetariana"
+      "nombre": "Crepes & Waffles",
+      "latitud": 6.2450208,
+      "longitud": -75.5950116,
+      "categoria": [
+        "crepe",
+        "ice_cream"
       ],
-      "respuestas": [
-        "Italiana",
-        "China",
-        "China",
-        "Mexicana",
-        "China",
-        "Italiana",
-        "China",
-        "Mexicana",
-        "Mexicana",
-        "Mexicana"
-      ]
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Manyare",
+      "latitud": 6.2458409,
+      "longitud": -75.5921946,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Charcuteria y Panaderia el Bolivariano",
+      "latitud": 6.2435177,
+      "longitud": -75.5860634,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Rejo / Comida Mexicana",
+      "latitud": 6.2439433,
+      "longitud": -75.5867077,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Aplastados de Pacho",
+      "latitud": 6.2458962,
+      "longitud": -75.5889305,
+      "categoria": [
+        "sandwich"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Kokoriko Bolivariana",
+      "latitud": 6.2459129,
+      "longitud": -75.5890435,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Guadalupana",
+      "latitud": 6.2447006,
+      "longitud": -75.589567,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Catrina",
+      "latitud": 6.2451435,
+      "longitud": -75.5845963,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Caseritos",
+      "latitud": 6.2411971,
+      "longitud": -75.5967335,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Causa",
+      "latitud": 6.2461324,
+      "longitud": -75.5964305,
+      "categoria": [
+        "peruvian",
+        "japanese"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Chiclayo",
+      "latitud": 6.2466388,
+      "longitud": -75.5941156,
+      "categoria": [
+        "peruvian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Pampa Argentina",
+      "latitud": 6.2472291,
+      "longitud": -75.5947171,
+      "categoria": [
+        "steak_house"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Siroka",
+      "latitud": 6.2454618,
+      "longitud": -75.5967644,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Full Arabe",
+      "latitud": 6.2472521,
+      "longitud": -75.5896091,
+      "categoria": [
+        "arab"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Desconocido",
+      "latitud": 6.2462874,
+      "longitud": -75.597462,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Lenteja Express",
+      "latitud": 6.2464308,
+      "longitud": -75.5948851,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Salud Pan",
+      "latitud": 6.2466267,
+      "longitud": -75.590056,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Pizzeria Olivia",
+      "latitud": 6.2455441,
+      "longitud": -75.596192,
+      "categoria": [
+        "pizza",
+        "italian_pizza"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Restaurante Las delicias de Caty",
+      "latitud": 6.2324023,
+      "longitud": -75.5909907,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mondongo's",
+      "latitud": 6.2463377,
+      "longitud": -75.5893585,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Punto G",
+      "latitud": 6.2422899,
+      "longitud": -75.5929387,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Desconocido",
+      "latitud": 6.2393906,
+      "longitud": -75.5875399,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Posdata",
+      "latitud": 6.242404,
+      "longitud": -75.5930383,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Paraíso",
+      "latitud": 6.2479456,
+      "longitud": -75.589611,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Orale comida Mexicana",
+      "latitud": 6.2472594,
+      "longitud": -75.5903204,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Compy Venezolana",
+      "latitud": 6.2472889,
+      "longitud": -75.5902067,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Frisby",
+      "latitud": 6.2467769,
+      "longitud": -75.5965148,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Trigo y Laurel",
+      "latitud": 6.2444839,
+      "longitud": -75.5968742,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Rico Ajiaco y Algo más",
+      "latitud": 6.2460813,
+      "longitud": -75.5893812,
+      "categoria": [
+        "regional",
+        "local"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Peace and Food",
+      "latitud": 6.2426133,
+      "longitud": -75.5864147,
+      "categoria": [
+        "french",
+        "mediterranean",
+        "sandwich",
+        "pizza",
+        "turkish"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Desconocido",
+      "latitud": 6.247142,
+      "longitud": -75.5894589,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El CASERITO",
+      "latitud": 6.2493628,
+      "longitud": -75.5911438,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mr Burger",
+      "latitud": 6.2423508,
+      "longitud": -75.5866394,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Empanadas la catedral",
+      "latitud": 6.2489117,
+      "longitud": -75.5889654,
+      "categoria": [
+        "regional",
+        "empanada"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Desconocido",
+      "latitud": 6.2396275,
+      "longitud": -75.5881931,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Desconocido",
+      "latitud": 6.2466324,
+      "longitud": -75.5865045,
+      "categoria": [
+        "regional",
+        "breakfast"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Achiote, Menu del dia 12000",
+      "latitud": 6.2461625,
+      "longitud": -75.5915712,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Opera Pizzería & Restaurante",
+      "latitud": 6.2479894,
+      "longitud": -75.589162,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Achiote Bistro",
+      "latitud": 6.2462274,
+      "longitud": -75.5914288,
+      "categoria": [
+        "coffee_shop",
+        "local"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Pane e Pomodoro",
+      "latitud": 6.2466599,
+      "longitud": -75.5923305,
+      "categoria": [
+        "italian_pizza"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El D",
+      "latitud": 6.2456274,
+      "longitud": -75.596636,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Pizzería Gatti",
+      "latitud": 6.246309,
+      "longitud": -75.5886769,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Buena Vibra street food",
+      "latitud": 6.246009,
+      "longitud": -75.5922871,
+      "categoria": [
+        "american"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Smash",
+      "latitud": 6.2446113,
+      "longitud": -75.5889322,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Voraz",
+      "latitud": 6.2461115,
+      "longitud": -75.5964886,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Ricotta Food Fusion",
+      "latitud": 6.2399755,
+      "longitud": -75.5928222,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Bollo Limpio",
+      "latitud": 6.2399169,
+      "longitud": -75.5930123,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Pico y Chao",
+      "latitud": 6.2456285,
+      "longitud": -75.5886604,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Petisco",
+      "latitud": 6.2467677,
+      "longitud": -75.5880979,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "PizzaExpress",
+      "latitud": 6.2446816,
+      "longitud": -75.5850461,
+      "categoria": [
+        "pizza"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Parrilla punta y solomo",
+      "latitud": 6.2447254,
+      "longitud": -75.5850087,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Vegano Andante",
+      "latitud": 6.2324988,
+      "longitud": -75.5916258,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Pampa Parrilla",
+      "latitud": 6.2456864,
+      "longitud": -75.592641,
+      "categoria": [
+        "argentinian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Panaderia Reposteria",
+      "latitud": 6.2478654,
+      "longitud": -75.5850616,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Coral Azul",
+      "latitud": 6.2486243,
+      "longitud": -75.5895264,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Punta Del Este",
+      "latitud": 6.2490975,
+      "longitud": -75.5933811,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Tejadito",
+      "latitud": 6.2452998,
+      "longitud": -75.5891494,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Dan Toro",
+      "latitud": 6.2402418,
+      "longitud": -75.5921897,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Bisontalas",
+      "latitud": 6.2384462,
+      "longitud": -75.598212,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Sushi Light",
+      "latitud": 6.2457475,
+      "longitud": -75.5969277,
+      "categoria": [
+        "sushi"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Taza y Helénico",
+      "latitud": 6.2460662,
+      "longitud": -75.5967969,
+      "categoria": [
+        "greek"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Pizza de Alejo",
+      "latitud": 6.2459094,
+      "longitud": -75.5970794,
+      "categoria": [
+        "pizza"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El sabor de San Joaquin",
+      "latitud": 6.2477096,
+      "longitud": -75.5869962,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Caldera",
+      "latitud": 6.2484072,
+      "longitud": -75.5893852,
+      "categoria": [
+        "breakfast",
+        "burger",
+        "chicken",
+        "sausage"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Eat Express",
+      "latitud": 6.2387789,
+      "longitud": -75.5983959,
+      "categoria": [
+        "american"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "LicoExpress",
+      "latitud": 6.246863,
+      "longitud": -75.594653,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Roll Up Sushi Burrito",
+      "latitud": 6.2464388,
+      "longitud": -75.5947006,
+      "categoria": [
+        "sushi"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Gran Esquina",
+      "latitud": 6.2480182,
+      "longitud": -75.5890013,
+      "categoria": [
+        "steak_house"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Submarino Express",
+      "latitud": 6.2429549,
+      "longitud": -75.5939782,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Naan Laureles",
+      "latitud": 6.2460241,
+      "longitud": -75.5968387,
+      "categoria": [
+        "indian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Ammazza Pizzeria & Gin Garden",
+      "latitud": 6.2436341,
+      "longitud": -75.5971192,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Ragazzi",
+      "latitud": 6.2453727,
+      "longitud": -75.5982136,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Il Forno",
+      "latitud": 6.2456197,
+      "longitud": -75.5929172,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Caduff Pasta Fresca",
+      "latitud": 6.2445346,
+      "longitud": -75.5943669,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Pomo d’oro",
+      "latitud": 6.2480848,
+      "longitud": -75.5907813,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Reposteria Astor",
+      "latitud": 6.2412143,
+      "longitud": -75.5874813,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Naturalia cafe",
+      "latitud": 6.245741,
+      "longitud": -75.5897465,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Bracos",
+      "latitud": 6.2434529,
+      "longitud": -75.5988577,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Puto Tacos Laureles",
+      "latitud": 6.2463244,
+      "longitud": -75.5949401,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Dulce Poison",
+      "latitud": 6.2478,
+      "longitud": -75.5894112,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "The Curry Lounge - Daawat e India",
+      "latitud": 6.246715,
+      "longitud": -75.5948026,
+      "categoria": [
+        "indian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Restaurante Popular",
+      "latitud": 6.2463535,
+      "longitud": -75.5930535,
+      "categoria": [
+        "coffee_shop"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Alma Natura",
+      "latitud": 6.2387017,
+      "longitud": -75.5863478,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Dame Ramen",
+      "latitud": 6.245808,
+      "longitud": -75.5963248,
+      "categoria": [
+        "ramen"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Los Chamos",
+      "latitud": 6.2472271,
+      "longitud": -75.5894467,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mundo Verde",
+      "latitud": 6.246544,
+      "longitud": -75.5963048,
+      "categoria": [
+        "pasta",
+        "salad"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mekong",
+      "latitud": 6.2462687,
+      "longitud": -75.5965472,
+      "categoria": [
+        "thai"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Game Over Resto Bar",
+      "latitud": 6.2463357,
+      "longitud": -75.5966105,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Bella Nonna",
+      "latitud": 6.2463724,
+      "longitud": -75.59664,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "123WOK",
+      "latitud": 6.2453411,
+      "longitud": -75.5973756,
+      "categoria": [
+        "asian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Correo Carne y Vino",
+      "latitud": 6.2465902,
+      "longitud": -75.5962412,
+      "categoria": [
+        "steak_house"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Altar Taquería",
+      "latitud": 6.246279,
+      "longitud": -75.5958002,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Leños & Carbón",
+      "latitud": 6.2461596,
+      "longitud": -75.5953901,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mistura",
+      "latitud": 6.2467502,
+      "longitud": -75.594481,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Las Veganas",
+      "latitud": 6.2422327,
+      "longitud": -75.5859407,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Dolce Salato",
+      "latitud": 6.2446987,
+      "longitud": -75.5896862,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "J&C Delicias",
+      "latitud": 6.2442488,
+      "longitud": -75.5911128,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Romana Trattoria",
+      "latitud": 6.246053,
+      "longitud": -75.5954481,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Rocoto",
+      "latitud": 6.2454155,
+      "longitud": -75.597366,
+      "categoria": [
+        "peruvian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Parmessano",
+      "latitud": 6.2456883,
+      "longitud": -75.5972049,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Rosa",
+      "latitud": 6.2484203,
+      "longitud": -75.5874331,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mundo Verde",
+      "latitud": 6.2407543,
+      "longitud": -75.5868022,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Il Forno",
+      "latitud": 6.2403055,
+      "longitud": -75.5872428,
+      "categoria": [
+        "italian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Alma",
+      "latitud": 6.2406838,
+      "longitud": -75.5824801,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Compostela",
+      "latitud": 6.2400863,
+      "longitud": -75.5832395,
+      "categoria": [
+        "italian",
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Mi Arepa",
+      "latitud": 6.2397729,
+      "longitud": -75.586764,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Makena Sushi & Grill",
+      "latitud": 6.2419806,
+      "longitud": -75.5926593,
+      "categoria": [
+        "sushi"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Emiliano Taquería",
+      "latitud": 6.2461196,
+      "longitud": -75.5967239,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Animal Cocina",
+      "latitud": 6.2455329,
+      "longitud": -75.5924927,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Migrate Panadería Restaurante",
+      "latitud": 6.2396043,
+      "longitud": -75.583206,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Capital Antioqueña",
+      "latitud": 6.2450644,
+      "longitud": -75.5962141,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Abba Padre Parilla",
+      "latitud": 6.2433726,
+      "longitud": -75.597139,
+      "categoria": [
+        "barbecue"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "La Dolores",
+      "latitud": 6.2434866,
+      "longitud": -75.5971443,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Milagros",
+      "latitud": 6.2459083,
+      "longitud": -75.5962159,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Hot Wings",
+      "latitud": 6.2463747,
+      "longitud": -75.596195,
+      "categoria": [
+        "wings"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Lima Sushi Wok",
+      "latitud": 6.2465262,
+      "longitud": -75.5954193,
+      "categoria": [
+        "sushi",
+        "asian"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Trapani",
+      "latitud": 6.2464495,
+      "longitud": -75.5945558,
+      "categoria": [
+        "pizza"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Eden",
+      "latitud": 6.2421656,
+      "longitud": -75.5971512,
+      "categoria": [
+        "brunch"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Donde Darío",
+      "latitud": 6.2381953,
+      "longitud": -75.5964796,
+      "categoria": [
+        "regional"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Artesano",
+      "latitud": 6.2394037,
+      "longitud": -75.5963908,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Alicos Grill",
+      "latitud": 6.2432945,
+      "longitud": -75.5972493,
+      "categoria": [
+        "steak"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Marmettina",
+      "latitud": 6.2434983,
+      "longitud": -75.5982639,
+      "categoria": [
+        "Desconocida"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Restaurante El Fortin",
+      "latitud": 6.2446871,
+      "longitud": -75.5899911,
+      "categoria": [
+        "chicken",
+        "local"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "El Altar Taquería La 70",
+      "latitud": 6.2456989,
+      "longitud": -75.5888895,
+      "categoria": [
+        "mexican"
+      ],
+      "calificacion": 0.0
+    },
+    {
+      "nombre": "Jack's Wings",
+      "latitud": 6.2401038,
+      "longitud": -75.5966749,
+      "categoria": [
+        "chicken"
+      ],
+      "calificacion": 0.0
     }
-  ]
+  ],
+  "preguntas": []
 }
