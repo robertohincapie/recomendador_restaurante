@@ -5,3 +5,8 @@ uv sync
 
 ### correr: 
 uv run uvicorn main:app --reload
+
+
+### contributor:
+1pperalta
+
