@@ -39,13 +39,14 @@ estado=None
 if(os.path.exists("estado.json")):
         estado=cargar_estado()
 else: 
-    estado=AgentState(latitud=6.2408979, longitud=-75.5904892, radio=1000.0, tiempo_inicio=time.time())  # Estado inicial vacío
+    estado=AgentState(latitud=6.2408979, longitud=-75.5904892, radio=1000.0, tiempo_inicio=time.time(), estado="inicial")  # Estado inicial vacío
     guardar_estado(estado)  
 
 estado_global = {
     "ultima_actualizacion": time.time(),
     "estado": estado   
 }
+
 print("Estado inicial cargado:", estado.estado) 
 if(estado.estado=="inicial"):
     #Se debe buscar los restaurantes y generar la primera pregunta
