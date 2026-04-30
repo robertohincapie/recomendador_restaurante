@@ -16,6 +16,7 @@ class pregunta(BaseModel):
     pregunta: str
     opciones: List[str]
     respuestas: Optional[List[str]] = None
+    numero_respuestas: int = 0
 
 class AgentState(BaseModel):
     latitud: float
@@ -24,6 +25,7 @@ class AgentState(BaseModel):
     estado: str = Field(default="inicial")  # Estado del agente (inicial, buscando, recomendando, etc.)
     restaurantes: List[restaurante] = []
     preguntas: List[pregunta] = []
+    tiempo_inicio: Optional[float] = None #Tiempo en el que se creó la última pregunta, para hacer también una decisión por timeout
 
 #métodos para enviar a un archivo json y leer del archivo json
 def guardar_estado(estado: AgentState, filename: str = "estado.json"):

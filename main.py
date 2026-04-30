@@ -3,26 +3,50 @@ from fastapi import FastAPI, Request, Form
 from fastapi.responses import HTMLResponse, RedirectResponse, JSONResponse
 from typing import Dict, List
 import time
-
-
-# Simulación de lógica externa
-from base import generar_formulario, procesar_respuesta, obtener_resultados, buscar_restaurantes_osm
+import asyncio
+from base import procesar_respuesta
+from base import construir_nueva_pregunta, generar_formulario, procesar_respuesta, obtener_resultados, buscar_restaurantes_osm
 from estado import AgentState, guardar_estado, cargar_estado, restaurante
+from contextlib import asynccontextmanager
 
-app = FastAPI()
+async def tarea_periodica():
+    while True:
+        print("Ejecutando tarea periódica... por timeout")
+        procesar_respuesta(None)  
+        await asyncio.sleep(100)
 
-# Estado simple en memoria (puedes migrar a Redis o DB)
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # startup
+    task = asyncio.create_task(tarea_periodica())
+    yield
+    # shutdown (cancelación limpia)
+    task.cancel()
+    try:
+        await task
+    except asyncio.CancelledError:
+        print("Tarea cancelada correctamente")
+
+
+app = FastAPI(lifespan=lifespan)
+
+#app = FastAPI()
+estado=None
+
+
+
+
 if(os.path.exists("estado.json")):
         estado=cargar_estado()
 else: 
-    estado=AgentState(latitud=6.2408979, longitud=-75.5904892, radio=1000.0)  # Estado inicial vacío
+    estado=AgentState(latitud=6.2408979, longitud=-75.5904892, radio=1000.0, tiempo_inicio=time.time())  # Estado inicial vacío
     guardar_estado(estado)  
 
 estado_global = {
     "ultima_actualizacion": time.time(),
     "estado": estado   
 }
-
+print("Estado inicial cargado:", estado.estado) 
 if(estado.estado=="inicial"):
     #Se debe buscar los restaurantes y generar la primera pregunta
     print("Buscando restaurantes en OSM...")    
@@ -37,15 +61,19 @@ if(estado.estado=="inicial"):
             categoria=r.get("tags", {}).get("cuisine", "Desconocida").split(";"),  # Asumiendo que las categorías están separadas por ";"
             calificacion=0.0  # Placeholder, ya que OSM no proporciona calificaciones
             ))
-    estado.restaurantes=rest
+    estado.restaurantes=rest 
+    estado.estado="nueva_pregunta"
     guardar_estado(estado)
+
+if(estado.estado=="nueva_pregunta"): 
+    construir_nueva_pregunta()
 # -----------------------------
 # GET: Página principal
 # -----------------------------
 @app.get("/", response_class=HTMLResponse)
 async def home(request: Request):
     print("Cargando estado...")
-    print(estado_global['estado'])
+    #print(estado_global['estado'])
     formulario = generar_formulario()
     cad=f"""<!DOCTYPE html>
 <html>

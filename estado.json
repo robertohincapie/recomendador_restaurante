@@ -2,7 +2,7 @@
   "latitud": 6.2408979,
   "longitud": -75.5904892,
   "radio": 1000.0,
-  "estado": "inicial",
+  "estado": "esperar_respuesta",
   "restaurantes": [
     {
       "nombre": "Crepes & Waffles",
@@ -1148,5 +1148,222 @@
       "calificacion": 0.0
     }
   ],
-  "preguntas": []
+  "preguntas": [
+    {
+      "pregunta": "¿Qué tipo de comida prefieres?",
+      "opciones": [
+        "burger",
+        "Desconocida",
+        "peruvian",
+        "brunch",
+        "sausage",
+        "pizza",
+        "thai",
+        "italian_pizza",
+        "coffee_shop",
+        "crepe",
+        "sandwich",
+        "ice_cream",
+        "french",
+        "greek",
+        "chicken",
+        "local",
+        "sushi",
+        "salad",
+        "barbecue",
+        "mediterranean",
+        "breakfast",
+        "italian",
+        "regional",
+        "arab",
+        "american",
+        "indian",
+        "ramen",
+        "argentinian",
+        "asian",
+        "turkish",
+        "steak_house",
+        "steak",
+        "mexican",
+        "empanada",
+        "japanese",
+        "pasta",
+        "wings"
+      ],
+      "respuestas": [
+        "arab",
+        "argentinian",
+        "asian",
+        "barbecue",
+        "coffee_shop",
+        "crepe",
+        "empanada",
+        "greek",
+        "ice_cream",
+        "indian",
+        "crepe",
+        "empanada",
+        "french",
+        "chicken",
+        "coffee_shop",
+        "crepe",
+        "empanada",
+        "french",
+        "greek",
+        "ice_cream",
+        "indian",
+        "italian",
+        "crepe",
+        "crepe",
+        "crepe"
+      ],
+      "numero_respuestas": 10
+    },
+    {
+      "pregunta": "De las siguientes opciones, ¿cuál es tu preferencia?",
+      "opciones": [
+        "crepe",
+        "empanada",
+        "french",
+        "greek",
+        "ice_cream",
+        "indian",
+        "coffee_shop"
+      ],
+      "respuestas": [
+        "crepe",
+        "empanada",
+        "french",
+        "greek",
+        "crepe",
+        "empanada",
+        "indian",
+        "coffee_shop",
+        "crepe",
+        "indian",
+        "crepe",
+        "crepe",
+        "crepe",
+        "crepe",
+        "crepe",
+        "crepe",
+        "empanada",
+        "empanada"
+      ],
+      "numero_respuestas": 11
+    },
+    {
+      "pregunta": "De las siguientes opciones, ¿cuál es tu preferencia?",
+      "opciones": [
+        "Crepes & Waffles",
+        "Empanadas la catedral",
+        "Peace and Food",
+        "La Taza y Helénico",
+        "Naan Laureles",
+        "Achiote Bistro"
+      ],
+      "respuestas": [
+        "Crepes & Waffles",
+        "Empanadas la catedral",
+        "La Taza y Helénico",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles"
+      ],
+      "numero_respuestas": 11
+    },
+    {
+      "pregunta": "De las siguientes opciones, ¿cuál es tu preferencia?",
+      "opciones": [
+        "Crepes & Waffles",
+        "Empanadas la catedral"
+      ],
+      "respuestas": [
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles",
+        "Crepes & Waffles"
+      ],
+      "numero_respuestas": 11
+    },
+    {
+      "pregunta": "Las opciones finales son:",
+      "opciones": [
+        "Crepes & Waffles"
+      ],
+      "respuestas": [
+        "Crepes & Waffles"
+      ],
+      "numero_respuestas": 1
+    },
+    {
+      "pregunta": "Las opciones finales son:",
+      "opciones": [
+        "Crepes & Waffles"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    },
+    {
+      "pregunta": "Las opciones finales son:",
+      "opciones": [
+        "Crepes & Waffles"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    },
+    {
+      "pregunta": "Las opciones finales son:",
+      "opciones": [
+        "Crepes & Waffles"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    },
+    {
+      "pregunta": "¿Desean ir al restaurante Crepes & Waffles?",
+      "opciones": [
+        "Sí",
+        "No"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    },
+    {
+      "pregunta": "¿Desean ir a otro restaurante que no sea Crepes & Waffles?",
+      "opciones": [
+        "Sí",
+        "No"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    },
+    {
+      "pregunta": "¿Qué tipo de comida prefieren para el restaurante?",
+      "opciones": [
+        "mexican",
+        "regional",
+        "pizza",
+        "sushi",
+        "steak_house"
+      ],
+      "respuestas": [],
+      "numero_respuestas": 0
+    }
+  ],
+  "tiempo_inicio": 1777569880.8057663
 }
